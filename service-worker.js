@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/FrontYamaha-github.io/precache-manifest.760f8d84a6d97640fccfad8fbcc89b7d.js"
+  "/FrontYamaha/precache-manifest.f7d5ce91ecef1a57f9fd72b6df814e4e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/FrontYamaha-github.io/index.html", {
+workbox.routing.registerNavigationRoute("/FrontYamaha/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
