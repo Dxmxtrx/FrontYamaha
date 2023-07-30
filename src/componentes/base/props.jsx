@@ -1,62 +1,49 @@
 import React from 'react'
-import 'boxicons';
-import { BiAlignJustify } from "react-icons/bi";
-import { BiPlay } from "react-icons/bi";
-import Image from "../base/Goblin.png"
-import { BsInstagram } from "react-icons/bs";
-import { BsYoutube } from "react-icons/bs";
-import { BsTelegram } from "react-icons/bs";
-import { IoMdArrowDropdownCircle } from "react-icons/io";
+import Image from './Logo.png'
+import Image2 from './Logo2.png'
+import Image3 from './MT.png'
+import Image4 from './Image.png'
+import '../../../src/index.css'
 
 
 
+export default function App (props) {
+    const textImport = {
+        fontFamily: 'Designer, sans-serif'
+    }
 
-export default function Parametros (props , evento) {
+
     return (
         <div id="general">
-            <div id='header'>
-            <logo id='#' class='logo'>{props.logo}</logo>
-            <a>
-                <l class='navlist' onClick={evento}>
-                    <list><p id='#'>{props.list1}</p></list>
-                    <list><p id='#'>{props.list2}</p></list>
-                    <list><p id='#'>{props.list3}</p></list>
-                    <list><p id='#'>{props.list4}</p></list>
-                    <list><p id='#'>{props.list5}</p></list>
-                    <list><p id='#'>{props.list6}</p></list>
+            <div id="#" class="logo">
+                    <img src={Image} width={200} height={200}></img>
+                </div>
+            <div id="header">
+                <ul class="horizontal-list">
+                    <li>Buy Now </li>
+                    <li>Call us</li>
+                    <li>More</li>
+            
+                </ul>
 
-                </l>
-            </a>
-            </div>
-        <div class="bx-menu" id="Menu-icon"><BiAlignJustify /></div> 
-        <section class="hero">
-            <div class="hero-name">
-                <h5>#2 Trending</h5>
-                <h4>Lead Supercell</h4>
-                <h1>GOBLINS</h1>
-                <p>Join with other players in the world, this game is 100% free, join us</p>
-                <a href='#'>Compare</a>
-                <a href='#' class='ct'><BiPlay fontSize={10}/>Watch the Gameplay</a>
+                <div id="image-container">
+                    <img id="img1" src={Image2} widht={120} height={100}></img>
+                    <img id="img2" src={Image3} widht={150} height={200}></img>
+                </div>
             </div>
 
-            <div class="img-hero">
-              <img id='imgh' src={Image}></img>
-            </div>
+            <section class="Vehicle">
+                <img id='img4' src={Image4} width={550} height={450}></img>
 
-            <div class='icons'>
-                <a href='#'><BsInstagram color='white' fontSize={24}/></a>
-                <a href='#'><BsYoutube color='white' fontSize={24}/></a>
-                <a href='#'><BsTelegram color='white' fontSize={24}/></a>
-            </div>
+                <div class="text">
 
-            <div class='scroll-down'>
-                <a href='#'><IoMdArrowDropdownCircle fontSize={25} color='white'/></a>
-            </div>
+                <p id='pub' style={textImport} >
+                Yamaha Hyper Naked bikes are designed to deliver thrills.
+                </p>
+                </div>
             </section>
-
         </div>
 
         
-
     )
 }
