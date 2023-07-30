@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/FrontYamaha-github.io/static/js/runtime~main.509f77d6.js"
   },
   {
-    "revision": "1650132350f15261cb195459fd1b0136",
-    "url": "/FrontYamaha-github.io/static/media/Road_Rage.16501323.otf"
-  },
-  {
     "revision": "45066bafd9269cb51f9c4f8ca2c34832",
     "url": "/FrontYamaha-github.io/static/media/DESIGNER.45066baf.otf"
+  },
+  {
+    "revision": "1650132350f15261cb195459fd1b0136",
+    "url": "/FrontYamaha-github.io/static/media/Road_Rage.16501323.otf"
   },
   {
     "revision": "18f1f200850c8b344d2dd4872b9e1d9b",
