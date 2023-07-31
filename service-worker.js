@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/FrontYamaha/precache-manifest.f7d5ce91ecef1a57f9fd72b6df814e4e.js"
+  "/FrontYamaha/precache-manifest.6aa7b165313ec594c3d8702ce74edf70.js"
 );
 
 workbox.clientsClaim();
